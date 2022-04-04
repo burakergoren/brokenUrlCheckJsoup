@@ -15,7 +15,7 @@ public class BrokenLinkCheck {
   public static void main(String[] args) throws IOException {
     Connection connection = Jsoup.connect(baseUrl);
     Document doc = connection.get();
-    doc.select("a")
+    doc.select("a")// get elements with "a" tag to find links
         .stream()
         .parallel()
         .map(element -> element.getElementsByAttribute("href")) //map href elements
