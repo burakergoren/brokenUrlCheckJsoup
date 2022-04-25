@@ -1,1 +1,1 @@
-# brokenUrlCheckJsoup
+## This is a sample java jsoup demo project, related medium article link is [here](https://medium.com/sahibinden-technology/how-to-check-broken-links-in-a-single-web-page-programmatically-c36561e3eb2f)
